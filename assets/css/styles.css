@@ -190,28 +190,42 @@ a#stackoverflow:hover{
     
 }
 #portfolio ul li{
-    width:300px;
+    float:left;
+}
+#portfolio ul li:nth-child(odd) {
+    padding:0 14px 0 0;
+}
+
+#portfolio ul li:nth-child(even) {
+    padding:0;
+}
+
+#portfolio ul li,
+#portfolio ul li a,
+#portfolio ul li a img,
+.description{
+    width:287px;
     
+}
+#portfolio ul li a img{
+    padding-right: 0;
 }
 #portfolio ul li a{
     display: block;
     text-decoration:none;
     position:relative;
-    width:300px;
-    height: 225px;
-}
-#portfolio ul li a img{
-    width:300px;
+    height: 215px;
+    margin-bottom: 14px;
 }
 .description{
     position:absolute;
     z-index: 1;
-    bottom:10px;
-    width:300px;
-    height:60px;
+    bottom:30px;
+    height:40px;
+    padding: 20px 0 0 0;
     text-align:center;
     color:#FFF;
-    background-color:#00aaa5;
+    background-color:rgba(0, 170, 165, 0.8);
     display: block;
 } 
 .description:hover{
