@@ -146,6 +146,9 @@ img{
     border:none;
     margin-bottom:0px;
 }
+#container form input#submitBtn:hover{
+    background-color:orange;
+}
 aside{
 	width:208px;
 	float:left;
